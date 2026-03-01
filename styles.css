@@ -11,6 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -21,6 +23,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 20px;
 }
 
 #photo-container {
@@ -78,12 +81,12 @@ main {
     padding: 20px 40px;
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: white !important;
     background: linear-gradient(45deg, 
         #ff0000, #ff7f00, #ffff00, #00ff00, 
-        #0000ff, #4b0082, #9400d3, #ff0000);
-    background-size: 400% 400%;
-    border: none;
+        #0000ff, #4b0082, #9400d3, #ff0000) !important;
+    background-size: 400% 400% !important;
+    border: none !important;
     border-radius: 15px;
     cursor: pointer;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
@@ -97,6 +100,8 @@ main {
     animation: rainbowShift 3s ease-in-out infinite;
     z-index: 1;
     overflow: hidden;
+    display: block;
+    margin: 0 auto;
 }
 
 .rainbow-3d-button::before {

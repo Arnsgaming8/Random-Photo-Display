@@ -61,8 +61,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Rainbow button click to refresh page
     const refreshButton = document.getElementById('refresh-button');
     if (refreshButton) {
-        refreshButton.addEventListener('click', function() {
+        console.log('Refresh button found, adding click listener');
+        refreshButton.addEventListener('click', function(event) {
+            console.log('Button clicked, refreshing page');
+            event.preventDefault();
             location.reload();
         });
+    } else {
+        console.log('Refresh button not found');
     }
 });
