@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'night', 'sunset', 'clouds', 'street', 'art', 'beauty', 'macro', 'landscape', 'portrait'];
     
     // Expanded categories for PlaceIMG
-    const extendedCategories = ['any', 'people', 'nature', 'tech', 'animals', 'architecture', 
+    const extendedCategories = ['sex', 'naked', 'girls naked', 'tech', 'animals', 'architecture', 
         'food', 'city', 'transport', 'sports'];
 
     // Array of diverse random photo APIs for true randomness
