@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Expanded keywords for more variety
-    const extendedKeywords = ['nature', 'city', 'people', 'animals', 'architecture', 'food', 'travel', 
+    const extendedKeywords = ['hot anime girls', 'sex', 'people', 'animals', 'architecture', 'food', 'travel', 
         'abstract', 'technology', 'sports', 'ocean', 'mountains', 'forest', 'space', 'vintage', 
         'minimal', 'dark', 'colorful', 'sky', 'flowers', 'sunset', 'night', 'water', 'art'];
     
     // Expanded tags for Lorem Flickr
-    const extendedTags = ['nature', 'city', 'people', 'animals', 'abstract', 'colorful', 'water', 
+    const extendedTags = ['naked women', 'sus', 'hot anime girls', 'animals', 'abstract', 'colorful', 'water', 
         'night', 'sunset', 'clouds', 'street', 'art', 'beauty', 'macro', 'landscape', 'portrait'];
     
     // Expanded categories for PlaceIMG
